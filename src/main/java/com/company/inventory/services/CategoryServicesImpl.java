@@ -20,7 +20,7 @@ public class CategoryServicesImpl implements ICategoryService{
 		CategoryResponseRest response = new CategoryResponseRest();
 		try {
 			List<Category> category=(List<Category>) categoryDao.findAll();
-			response.getCategoryResponseRest().setCategory(category);
+			response.getCategoryResponse().setCategory(category);
 			response.setMetadata("Respuesta ok", "00", "Respuesta Exitosa");
 		}catch(Exception e) {
 			response.setMetadata("Respuesta NO OK", "-1", "Error al consultar");

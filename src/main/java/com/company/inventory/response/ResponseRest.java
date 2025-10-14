@@ -13,8 +13,8 @@ public class ResponseRest {
 		public void setMetadata(String type,String code, String date) {
 			HashMap<String,String> map = new HashMap<String,String>();
 			map.put("type",type);
-			map.put("code",type);
-			map.put("date",type);
+			map.put("code",code);
+			map.put("date",date);
 			metadata.add(map);
 		}
 		
