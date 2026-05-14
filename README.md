@@ -1,4 +1,4 @@
-# 📦 API RESTful - Sistema de Gestión de Inventario (Backend)
+# 📦 API RESTfull - Sistema de Gestión de Inventario (Backend)
 
 Este proyecto es el backend de un Sistema de Inventario desarrollado en **Spring Boot**, diseñado para exponer una API RESTful completa que gestiona las tablas de Categorías y Productos. 
 
